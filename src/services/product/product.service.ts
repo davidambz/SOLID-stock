@@ -1,11 +1,11 @@
 export type SellOutputDto = {
     id: string;
-    balance: string;
+    balance: number;
 }
 
 export type BuyOutputDto = {
     id: string;
-    balance: string;
+    balance: number;
 }
 
 export type ListOutputDto = {
@@ -14,7 +14,7 @@ export type ListOutputDto = {
         name: string;
         price: number;
         balance: number;
-    }
+    }[];
     
 }
 
