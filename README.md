@@ -18,7 +18,7 @@ Make sure you have Node.js and npm installed on your system.
 1. Clone this repository to your local machine.
 2. Rename the `.env.example` file to `.env`.
 3. Install project dependencies by running the command `npm install`.
-4. Start the server with the command `npm start`.
+4. Start the server with the command `npm run dev`.
 
 ## Database Configuration
 
